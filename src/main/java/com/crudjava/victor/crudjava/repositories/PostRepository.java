@@ -1,0 +1,9 @@
+package com.crudjava.victor.crudjava.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.crudjava.victor.crudjava.entities.Post;
+
+public interface PostRepository extends CrudRepository<Post, Long> {
+
+}
